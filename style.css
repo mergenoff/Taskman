@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.sidebar{
+    position: fixed;
+    width: 31px;
+    height: 586px;
+    margin: 36px 30px 30px 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.sidebar_line{
+    width: 0;
+    height: 278px;
+    border: 0.5px solid #333333;
+    margin: 0 auto;
+}
+.picture{
+    position: relative;
+    left: -22px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 25px;
+    width: 100%;
+}
+
+.content_main {
+    display: flex;
+
+}
+.logo{
+    width: 23px;
+    height: 23px;
+    background-color: #FFC72C;
+ }
+
+.content_header{
+    display: flex;
+    width: 92%;
+    height: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 35px;
+    margin: 22px 51px 35px 80px;
+    padding: 24px;
+}
+
+.content_header-logo{
+    flex-grow: 18;
+    background-color: #FFFFFF;
+}
+.content_header-search{
+    flex-grow: 3;
+    background-color: #FFFFFF;
+}
+.content_header-profile{
+    flex-grow: 1;
+    background-color: #FFFFFF;
+}
+.alarm{
+    width: 12px;
+    height: 18px;
+}
+.content_info{
+    width: 60%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    margin-left: 80px;
+    position: relative;
+}
+
+.pic1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: -35px;
+
+
+}
+.pic2{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 30px;
+
+}
+.pic3{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+.pic4{
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+}
+.content_info-header{
+    width: 40%;
+    margin-left: 100px;
+    background-color: #FFFFFF;
+}
+
+.content_info-list{
+    margin: 20px 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 15px 15px 0px 0px;
+    padding: 20px;
+}
+.content_info-list div{
+    padding: 7px;
+}
+
+.orange{
+    border: 0.5px solid #FFC72C;
+    transform: rotate(-179.84deg);
+}
+.text{
+    padding: 20px 0;
+}
+
+.content_aside{
+    width: 30%;
+    height: 361px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.content_aside-header{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.line4{
+    width: 190px;
+}
+.button{
+    width: 350px;
+    height: 50px;
+    background: #FFC72C;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px 40px;
+}
+
